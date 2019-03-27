@@ -1,0 +1,357 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>KOsudoku(Android解数独app) &#8211; I'm 肿队长</title>
+<meta name="description" content="毕业前的实训，老师以数独游戏为例讲解如何做一个Android app。我平时也爱玩数独，自觉解题方法也还行，干脆实现到代码算法里吧，拿程序来解题。于是我向老师申请把我的作业调整下，不写数独游戏了，写解数独的app。然后就有了这货。。。">
+<meta name="keywords" content="作品">
+
+
+
+<!-- Open Graph -->
+<meta property="og:locale" content="cn_ZH">
+<meta property="og:type" content="article">
+<meta property="og:title" content="KOsudoku(Android解数独app)">
+<meta property="og:description" content="毕业前的实训，老师以数独游戏为例讲解如何做一个Android app。我平时也爱玩数独，自觉解题方法也还行，干脆实现到代码算法里吧，拿程序来解题。于是我向老师申请把我的作业调整下，不写数独游戏了，写解数独的app。然后就有了这货。。。">
+<meta property="og:url" content="//www.yorry.cn/prod/kosudoku/">
+<meta property="og:site_name" content="I'm 肿队长">
+<meta property="og:image" content="//www.yorry.cn/images/images/logo.png">
+
+
+
+
+
+<link rel="canonical" href="//www.yorry.cn/prod/kosudoku/">
+<link href="//www.yorry.cn/feed.xml" type="application/atom+xml" rel="alternate" title="I'm 肿队长 Feed">
+
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="//www.yorry.cn/assets/css/main.css">
+<link rel="stylesheet" href="//www.yorry.cn/assets/css/jquery.mmenu.all.css">
+<link rel="stylesheet" href="//www.yorry.cn/assets/css/jquery.floating-social-share.min.css">
+<!-- Webfonts -->
+<link href="//fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic" rel="stylesheet" type="text/css">
+
+<meta http-equiv="cleartype" content="on">
+<!--<meta http-equiv="Pragma" content="no-cache">-->
+<!--<meta http-equiv="Cache-Control" content="no-cache">-->
+<!--<meta http-equiv="Expires" content="0">-->
+
+<!-- Load Modernizr -->
+<script type="text/javascript" src="//www.yorry.cn/assets/js/vendor/modernizr-2.6.2.custom.min.js"></script>
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="//www.yorry.cn/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="//www.yorry.cn/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="//www.yorry.cn/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="//www.yorry.cn/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="//www.yorry.cn/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="//www.yorry.cn/images/apple-touch-icon-144x144-precomposed.png">
+
+
+
+
+
+<style type="text/css">body {background-image:url(//www.yorry.cn/images/wallpaper.gif);}</style>
+
+<script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?deb822ee6035a4d5b96a14849f2140c0";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
+
+</head>
+
+<body id="post" >
+
+<!--[if lt IE 9]><div class="upgrade"><strong>你的浏览器太旧啦!</strong> 用<a href="https://www.google.cn/chrome/">chrome</a>吧！</div><![endif]-->
+
+
+
+<div class="header-menu header-menu-top">
+    <ul class="header-item-container">
+      <li class="header-item-title header-toggle "><a href="#menu"><h2><i class="fa fa-bars"></i></h2></a></li>
+      <li class="header-item-title">
+        <a href="//www.yorry.cn/">
+          
+            <img class="logo" src="//www.yorry.cn/images/logo.png" alt="I'm 肿队长">
+          
+          <a href="//www.yorry.cn/" class="title"> I'm 肿队长</a>
+        </a>
+      </li>
+      
+        
+        
+
+        
+            
+                <li class="header-item "><a href="//www.yorry.cn/about"><h3>关于</h3></a></li>
+            
+        
+      
+        
+        
+
+        
+          <li class="header-item active"><a href="//www.yorry.cn/prod"><h3>作品集</h3></a>
+            <ul class="header-submenu">
+              
+                <li class="sub-item"><a href="//www.yorry.cn/prod/up/">UP系统</a></li>
+              
+                <li class="sub-item"><a href="//www.yorry.cn/prod/miniprogram-KOsudoku/">微信小程序</a></li>
+              
+                <li class="sub-item"><a href="//www.yorry.cn/prod/crx-assistant-zhong/">chrome插件</a></li>
+              
+            </ul>
+          </li>
+        
+      
+        
+        
+
+        
+            
+                <li class="header-item "><a href="//www.yorry.cn/posts"><h3>归档</h3></a></li>
+            
+        
+      
+        
+        
+
+        
+            
+                <li class="header-item "><a href="//www.yorry.cn/tags"><h3>标签</h3></a></li>
+            
+        
+      
+        
+        
+
+        
+            
+                <li class="header-item "><a href="//www.yorry.cn/blog/"><h3>日志</h3></a></li>
+            
+        
+      
+        
+        
+
+        
+            
+                <li class="header-item "><a href="//www.yorry.cn/"><h3>首页</h3></a></li>
+            
+        
+      
+      <li class="header-item"><a href="//www.yorry.cn/search"><h3><i class="fa fa-search"></i></h3></a></li>
+    </ul>
+  </div>
+<div class="entry-header">
+  <div class="header-title">
+    <div class="header-title-wrap">
+      <h1>KOsudoku(Android解数独app)</h1>
+      
+      
+      <h2><span class="entry-date date published updated"><time datetime="2011-09-22T00:00:00+08:00">2011年09月22日</time></span></h2>
+      
+
+      
+        <p class="entry-reading-time">
+          <i class="fa fa-clock-o"></i>
+          
+          预计阅读需要1分钟
+        </p><!-- /.entry-reading-time -->
+      
+    </div><!-- /.header-title-wrap -->
+  </div><!-- /.header-title -->
+</div><!-- /.entry-header -->
+
+
+<nav id="menu" style="display: none">
+  <ul>
+    
+      
+        <li><a href="//www.yorry.cn/"><h3>首页</h3></a></li>
+      
+    
+      
+        <li><a href="//www.yorry.cn/blog/"><h3>日志</h3></a></li>
+      
+    
+      
+        <li><a href="//www.yorry.cn/tags"><h3>标签</h3></a></li>
+      
+    
+      
+        <li><a href="//www.yorry.cn/posts"><h3>归档</h3></a></li>
+      
+    
+      
+        <li><a href="//www.yorry.cn/prod"><h3>作品集</h3></a>
+          <ul>
+            
+              <li><a href="//www.yorry.cn/prod/up/">UP系统</a></li>
+            
+              <li><a href="//www.yorry.cn/prod/miniprogram-KOsudoku/">微信小程序</a></li>
+            
+              <li><a href="//www.yorry.cn/prod/crx-assistant-zhong/">chrome插件</a></li>
+            
+          </ul>
+        </li>
+      
+    
+      
+        <li><a href="//www.yorry.cn/about"><h3>关于</h3></a></li>
+      
+    
+  </ul>
+</nav>
+
+
+
+
+<div id="main" role="main">
+  <article class="hentry">
+    <div class="entry-content">
+        
+      <h1 class="post-title entry-title">KOsudoku(Android解数独app)</h1>
+      <div class="mb-date">
+        <span class="entry-date date published updated"><time datetime="2011-09-22T00:00:00+08:00">2011年09月22日</time></span>
+      </div>
+      <p class="image-contain"><a href="//up.yorry.cn/link/kosudoku/load_img2.png"><img src="//up.yorry.cn/link/kosudoku/load_img2.png" alt="Smithsonian Image" /></a></p>
+
+<h2 id="背景">背景</h2>
+<p>毕业前的实训，老师以数独游戏为例讲解如何做一个Android app。我平时也爱玩数独，自觉解题方法也还行，干脆实现到代码算法里吧，拿程序来解题。</p>
+
+<p>于是我向老师申请把我的作业调整下，不写数独游戏了，写解数独的app。</p>
+
+<p>然后就有了这货。。。</p>
+
+<!--more-->
+
+<hr />
+
+<h2 id="功能介绍">功能介绍</h2>
+
+<p class="image-contain"><a href="//up.yorry.cn/link/kosudoku/pic1.png"><img src="//up.yorry.cn/link/kosudoku/pic1.png" alt="Smithsonian Image" /></a></p>
+
+<p class="image-contain"><a href="//up.yorry.cn/link/kosudoku/pic2.png"><img src="//up.yorry.cn/link/kosudoku/pic2.png" alt="Smithsonian Image" /></a></p>
+
+<p class="image-contain"><a href="//up.yorry.cn/link/kosudoku/pic3.png"><img src="//up.yorry.cn/link/kosudoku/pic3.png" alt="Smithsonian Image" /></a></p>
+
+<p class="image-contain"><a href="//up.yorry.cn/link/kosudoku/pic4.png"><img src="//up.yorry.cn/link/kosudoku/pic4.png" alt="Smithsonian Image" /></a></p>
+
+<p class="image-contain"><a href="//up.yorry.cn/link/kosudoku/pic5.png"><img src="//up.yorry.cn/link/kosudoku/pic5.png" alt="Smithsonian Image" /></a></p>
+
+<p class="image-contain"><a href="//up.yorry.cn/link/kosudoku/pic6.png"><img src="//up.yorry.cn/link/kosudoku/pic6.png" alt="Smithsonian Image" /></a></p>
+
+<p class="image-contain"><a href="//up.yorry.cn/link/kosudoku/pic7.png"><img src="//up.yorry.cn/link/kosudoku/pic7.png" alt="Smithsonian Image" /></a></p>
+
+<p class="image-contain"><a href="//up.yorry.cn/link/kosudoku/pic8.png"><img src="//up.yorry.cn/link/kosudoku/pic8.png" alt="Smithsonian Image" /></a></p>
+
+<p class="image-contain"><a href="//up.yorry.cn/link/kosudoku/pic9.png"><img src="//up.yorry.cn/link/kosudoku/pic9.png" alt="Smithsonian Image" /></a></p>
+
+<p class="image-contain"><a href="//up.yorry.cn/link/kosudoku/pic10.png"><img src="//up.yorry.cn/link/kosudoku/pic10.png" alt="Smithsonian Image" /></a></p>
+
+<hr />
+
+<h2 id="app下载">App下载</h2>
+
+<p>貌似现在安卓市场已经倒闭了😂 我自己给个 <a href="//up.yorry.cn/link/kosudoku/KOsudoku.apk">apk下载链接</a> 吧。</p>
+
+<blockquote>
+  <p>发布到了安卓市场 <a href="//static.apk.hiapk.com/html/2011/11/322408.html">//static.apk.hiapk.com/html/2011/11/322408.html</a></p>
+</blockquote>
+
+      
+      <footer class="entry-meta">
+        <span class="entry-tags"><a href="//www.yorry.cn/tags#作品" title="标签为: 作品" class="tag"><span class="term">作品</span></a></span>
+        <span>更新于 <span class="entry-date date updated"><time datetime="2018-06-23">2018年06月23日</time></span></span>
+        
+        <span class="author vcard"><span class="fn">肿队长</span></span>
+        <div>
+          <img src="/images/zan.jpg" width="240">
+        </div>
+      </footer>
+      <div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more">分享到：</a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博">新浪微博</a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信">微信</a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间">QQ空间</a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博">腾讯微博</a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网">人人网</a></div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{"bdSize":16}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='/assets/js/plugins/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+      <!-- 来必力City版安装代码 -->
+      <div id="lv-container" data-id="city" data-uid="MTAyMC8zODE4MC8xNDcwOA==">
+        <script type="text/javascript">
+          (function(d, s) {
+            var j, e = d.getElementsByTagName(s)[0];
+
+            if (typeof LivereTower === 'function') { return; }
+
+            j = d.createElement(s);
+            j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+            j.async = true;
+
+            e.parentNode.insertBefore(j, e);
+          })(document, 'script');
+        </script>
+        <noscript>为正常使用来必力评论功能请激活JavaScript</noscript>
+      </div>
+      <!-- City版安装代码已完成 -->
+    </div><!-- /.entry-content -->
+    <div class="read-more">
+  
+    <div class="read-more-header">
+      <a class="read-more-btn">推荐阅读</a>
+    </div><!-- /.read-more-header -->
+    <div class="read-more-content">
+      <h3><a href="//www.yorry.cn/wx/wx-oa-pms/" title="中软同事们，是时候换个姿势打开OA和PMS工时系统了！">中软同事们，是时候换个姿势打开OA和PMS工时系统了！</a></h3>
+      <p>一键查年假/调休/打卡记录，一键提交电子流，一键提交整月工时，一切尽在UP系统！</p>
+    </div><!-- /.read-more-content -->
+  
+  <div class="read-more-list">
+    
+      <div class="list-item">
+        <h4><a href="//www.yorry.cn/prod/up-reservation/" title="UP系统-会议室预订">UP系统-会议室预订</a></h4>
+        <span>2018年09月03日</span>
+      </div><!-- /.list-item -->
+    
+      <div class="list-item">
+        <h4><a href="//www.yorry.cn/prod/up-device/" title="UP系统-设备管理">UP系统-设备管理</a></h4>
+        <span>2018年08月29日</span>
+      </div><!-- /.list-item -->
+    
+  </div><!-- /.read-more-list -->
+</div><!-- /.read-more -->
+  </article>
+</div><!-- /#main -->
+
+<script type="text/javascript" src="//www.yorry.cn/assets/js/vendor/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="//www.yorry.cn/assets/js/scripts.min.js"></script>
+
+
+
+
+
+
+
+<div class="footer-wrapper">
+  <footer role="contentinfo">
+    <span>&copy; 2019 <a href="/about" target="_self">肿队长</a> | <a href="http://www.miibeian.gov.cn/" target="_blank">渝ICP备13007401号</a> | <a
+    href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=50011902000173" target="_blank">渝公网安备50011902000173号</a></span>
+
+  </footer>
+</div><!-- /.footer-wrapper -->
+
+</body>
+</html>
