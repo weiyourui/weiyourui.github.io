@@ -4,99 +4,13 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="//www.yorry.cn/feed.xml" />
 <link rel="alternate" type="text/html" href="//www.yorry.cn" />
-<updated>2019-03-27T22:07:36+08:00</updated>
+<updated>2019-03-30T11:27:24+08:00</updated>
 <id>//www.yorry.cn/</id>
 <author>
   <name>肿队长</name>
   <uri>//www.yorry.cn/</uri>
   <email>i@yorry.cn</email>
 </author>
-
-
-<entry>
-  <title type="html"><![CDATA[中软同事们，是时候换个姿势打开OA和PMS工时系统了！]]></title>
- <link rel="alternate" type="text/html" href="https://mp.weixin.qq.com/s?__biz=MjM5NDQyMzMzNg==&mid=2648896276&idx=1&sn=1c27f1fb3f7209f2f855c7dd1b98fe2e&chksm=be91a45389e62d4508214abeb5080bbe118df860c54b054f454caa327e545da5ed37798c87b3&token=503957019&lang=zh_CN#rd" />
-  <id>//www.yorry.cn/wx/wx-oa-pms</id>
-  <published>2018-10-08T00:00:00+08:00</published>
-  <updated>2018-10-08T00:00:00+08:00</updated>
-  <author>
-    <name>肿队长</name>
-    <uri>//www.yorry.cn</uri>
-    <email>i@yorry.cn</email>
-  </author>
-  <content type="html">
-    &lt;p&gt;&lt;img src=&quot;//www.yorry.cn/images/up_banner.png&quot; alt=&quot;Smithsonian Image&quot; /&gt;
-一键查年假/调休/打卡记录，一键提交电子流，一键提交整月工时，一切尽在UP系统！&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;//www.yorry.cn/wx/wx-oa-pms/&quot;&gt;中软同事们，是时候换个姿势打开OA和PMS工时系统了！&lt;/a&gt; was originally published by 肿队长 at &lt;a href=&quot;//www.yorry.cn&quot;&gt;I'm 肿队长&lt;/a&gt; on 2018年10月08日.&lt;/p&gt;
-  </content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[UP系统-会议室预订]]></title>
- <link rel="alternate" type="text/html" href="//www.yorry.cn/prod/up-reservation/" />
-  <id>//www.yorry.cn/prod/up-reservation</id>
-  <published>2018-09-03T00:00:00+08:00</published>
-  <updated>2018-09-03T00:00:00+08:00</updated>
-  <author>
-    <name>肿队长</name>
-    <uri>//www.yorry.cn</uri>
-    <email>i@yorry.cn</email>
-  </author>
-  <content type="html">
-    &lt;h3 id=&quot;reservation模块&quot;&gt;Reservation模块&lt;/h3&gt;
-
-&lt;p&gt;UP·会议室预订功能极速上线！&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;纯图形化操作，手指拖动调整时间和时长；&lt;/li&gt;
-  &lt;li&gt;单日模式可一览多个会议室预订情况；&lt;/li&gt;
-  &lt;li&gt;单间模式可查看某一会议室整周预订情况；&lt;/li&gt;
-  &lt;li&gt;自动同步企业工作日历；&lt;/li&gt;
-  &lt;li&gt;扫会议室二维码快速查看该会议室；&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p class=&quot;image-contain&quot;&gt;&lt;a href=&quot;//up.yorry.cn/link/up/IMG_5003.PNG&quot;&gt;&lt;img src=&quot;//up.yorry.cn/link/up/IMG_5003.PNG&quot; alt=&quot;Smithsonian Image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;embed width=&quot;800&quot; height=&quot;600&quot; src=&quot;//up.yorry.cn/link/up/UP_Reservation_v1.0.pdf&quot;&gt;&lt;/embed&gt;
-
-    &lt;p&gt;&lt;a href=&quot;//www.yorry.cn/prod/up-reservation/&quot;&gt;UP系统-会议室预订&lt;/a&gt; was originally published by 肿队长 at &lt;a href=&quot;//www.yorry.cn&quot;&gt;I'm 肿队长&lt;/a&gt; on 2018年09月03日.&lt;/p&gt;
-  </content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[UP系统-设备管理]]></title>
- <link rel="alternate" type="text/html" href="//www.yorry.cn/prod/up-device/" />
-  <id>//www.yorry.cn/prod/up-device</id>
-  <published>2018-08-29T00:00:00+08:00</published>
-  <updated>2018-08-29T00:00:00+08:00</updated>
-  <author>
-    <name>肿队长</name>
-    <uri>//www.yorry.cn</uri>
-    <email>i@yorry.cn</email>
-  </author>
-  <content type="html">
-    &lt;h3 id=&quot;device模块&quot;&gt;Device模块&lt;/h3&gt;
-
-&lt;p&gt;UP·设备管理功能上线啦！告别低效登记，解决清点困难，减少懵逼背锅侠，优化资源协调，降低闲置浪费。&lt;/p&gt;
-
-&lt;p&gt;UP四年来一直致力于以极简的理念设计系统、改进流程。你，值得拥有。&lt;/p&gt;
-
-&lt;p&gt;识别图中二维码或搜索小程序“UP系统”，选择Device模块&lt;/p&gt;
-
-&lt;p class=&quot;image-contain&quot;&gt;&lt;a href=&quot;//up.yorry.cn/link/up/IMG_4972.PNG&quot;&gt;&lt;img src=&quot;//up.yorry.cn/link/up/IMG_4972.PNG&quot; alt=&quot;Smithsonian Image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;embed width=&quot;800&quot; height=&quot;600&quot; src=&quot;//up.yorry.cn/link/up/UP_Device_v1.0.pdf&quot;&gt;&lt;/embed&gt;
-
-    &lt;p&gt;&lt;a href=&quot;//www.yorry.cn/prod/up-device/&quot;&gt;UP系统-设备管理&lt;/a&gt; was originally published by 肿队长 at &lt;a href=&quot;//www.yorry.cn&quot;&gt;I'm 肿队长&lt;/a&gt; on 2018年08月29日.&lt;/p&gt;
-  </content>
-</entry>
 
 
 <entry>
@@ -910,367 +824,6 @@ eval(function(p,a,c,k,e,d){e=function(c){return(c&lt;a?&quot;&quot;:e(parseInt(c
 
 
 <entry>
-  <title type="html"><![CDATA[UP系统 (原iClarity系统)]]></title>
- <link rel="alternate" type="text/html" href="//www.yorry.cn/prod/up/" />
-  <id>//www.yorry.cn/prod/up</id>
-  <updated>2018-12-27T00:00:00-00:00</updated>
-  <published>2014-07-01T00:00:00+08:00</published>
-  
-  <author>
-    <name>肿队长</name>
-    <uri>//www.yorry.cn</uri>
-    <email>i@yorry.cn</email>
-  </author>
-  <content type="html">
-    &lt;h2 id=&quot;电脑版&quot;&gt;电脑版&lt;/h2&gt;
-&lt;p class=&quot;image-contain&quot;&gt;&lt;a href=&quot;//www.yorry.cn/images/up_pc.png&quot;&gt;&lt;img src=&quot;//www.yorry.cn/images/up_pc.png&quot; alt=&quot;Smithsonian Image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;手机版&quot;&gt;手机版&lt;/h2&gt;
-&lt;p class=&quot;image-contain&quot;&gt;&lt;a href=&quot;//www.yorry.cn/images/up_mobile.png&quot;&gt;&lt;img src=&quot;//www.yorry.cn/images/up_mobile.png&quot; alt=&quot;Smithsonian Image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-
-&lt;hr /&gt;
-
-&lt;h2 id=&quot;小程序版&quot;&gt;小程序版&lt;/h2&gt;
-&lt;p class=&quot;image-contain&quot;&gt;&lt;a href=&quot;//www.yorry.cn/images/qrcode_up.jpg&quot;&gt;&lt;img src=&quot;//www.yorry.cn/images/qrcode_up.jpg&quot; alt=&quot;Smithsonian Image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;!--more--&gt;
-
-&lt;h2 id=&quot;版本历史&quot;&gt;版本历史&lt;/h2&gt;
-
-&lt;div id=&quot;timeline&quot;&gt;
-    &lt;div class=&quot;timeline-item&quot;&gt;
-        &lt;div class=&quot;timeline-icon&quot;&gt;
-            &lt;i class=&quot;fa fa-star&quot;&gt;&lt;/i&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;timeline-content right&quot;&gt;
-            &lt;h2&gt;2019.02&lt;/h2&gt;
-            &lt;p&gt;小程序&quot;UP系统&quot;-新增成长豆功能&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;timeline-item&quot;&gt;
-        &lt;div class=&quot;timeline-icon&quot;&gt;
-            &lt;i class=&quot;fa fa-rocket&quot;&gt;&lt;/i&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;timeline-content&quot;&gt;
-            &lt;h2&gt;2019.01 (v4.0)&lt;/h2&gt;
-            &lt;p&gt;全新UI，Timesheet升级为极速版，新增web端Device(设备管理)功能&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;timeline-item&quot;&gt;
-        &lt;div class=&quot;timeline-icon&quot;&gt;
-            &lt;i class=&quot;fa fa-star&quot;&gt;&lt;/i&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;timeline-content right&quot;&gt;
-            &lt;h2&gt;2018.12&lt;/h2&gt;
-            &lt;p&gt;小程序&quot;UP系统&quot;-新增Easy Trip(差旅餐饮酒店信息)功能&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;timeline-item&quot;&gt;
-        &lt;div class=&quot;timeline-icon&quot;&gt;
-            &lt;i class=&quot;fa fa-star&quot;&gt;&lt;/i&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;timeline-content&quot;&gt;
-            &lt;h2&gt;2018.11&lt;/h2&gt;
-            &lt;p&gt;小程序&quot;UP系统&quot;-新增英雄榜功能&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;timeline-item&quot;&gt;
-        &lt;div class=&quot;timeline-icon&quot;&gt;
-            &lt;i class=&quot;fa fa-star&quot;&gt;&lt;/i&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;timeline-content right&quot;&gt;
-            &lt;h2&gt;2018.10&lt;/h2&gt;
-            &lt;p&gt;小程序&quot;UP系统&quot;-新增PMS(直连中软PMS工时)功能&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;timeline-item&quot;&gt;
-        &lt;div class=&quot;timeline-icon&quot;&gt;
-            &lt;i class=&quot;fa fa-star&quot;&gt;&lt;/i&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;timeline-content&quot;&gt;
-            &lt;h2&gt;2018.09 (v3.2)&lt;/h2&gt;
-            &lt;p&gt;Timesheet支持记录操作日志&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;timeline-item&quot;&gt;
-        &lt;div class=&quot;timeline-icon&quot;&gt;
-            &lt;i class=&quot;fa fa-star&quot;&gt;&lt;/i&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;timeline-content right&quot;&gt;
-            &lt;h2&gt;2018.09&lt;/h2&gt;
-            &lt;p&gt;小程序&quot;UP系统&quot;-新增Reservation(会议室预订)功能、OA(直连中软OA)功能&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;timeline-item&quot;&gt;
-        &lt;div class=&quot;timeline-icon&quot;&gt;
-            &lt;i class=&quot;fa fa-star&quot;&gt;&lt;/i&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;timeline-content&quot;&gt;
-            &lt;h2&gt;2018.08&lt;/h2&gt;
-            &lt;p&gt;小程序&quot;UP系统&quot;-新增Device(设备管理)功能&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;timeline-item&quot;&gt;
-        &lt;div class=&quot;timeline-icon&quot;&gt;
-            &lt;i class=&quot;fa fa-globe&quot;&gt;&lt;/i&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;timeline-content right&quot;&gt;
-            &lt;h2&gt;2018.07&lt;/h2&gt;
-            &lt;p&gt;UP小程序版上线 (微信小程序搜索&quot;UP系统&quot;)&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;timeline-item&quot;&gt;
-        &lt;div class=&quot;timeline-icon&quot;&gt;
-            &lt;i class=&quot;fa fa-star&quot;&gt;&lt;/i&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;timeline-content&quot;&gt;
-            &lt;h2&gt;2018.01 (v3.1)&lt;/h2&gt;
-            &lt;p&gt;支持excel批量导入resource；服务器同步用户设置；批量操作Timesheet&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;timeline-item&quot;&gt;
-        &lt;div class=&quot;timeline-icon&quot;&gt;
-            &lt;i class=&quot;fa fa-globe&quot;&gt;&lt;/i&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;timeline-content right&quot;&gt;
-            &lt;h2&gt;2017.06&lt;/h2&gt;
-            &lt;p&gt;UP手机版上线&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;timeline-item&quot;&gt;
-        &lt;div class=&quot;timeline-icon&quot;&gt;
-            &lt;i class=&quot;fa fa-rocket&quot;&gt;&lt;/i&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;timeline-content&quot;&gt;
-            &lt;h2&gt;2017.05 (v3.0)&lt;/h2&gt;
-            &lt;p&gt;系统更名为UP；Attendance，Databank功能下线&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;timeline-item&quot;&gt;
-        &lt;div class=&quot;timeline-icon&quot;&gt;
-            &lt;i class=&quot;fa fa-star&quot;&gt;&lt;/i&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;timeline-content right&quot;&gt;
-            &lt;h2&gt;2016.08 (v2.4)&lt;/h2&gt;
-            &lt;p&gt;新增Attendance功能&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;timeline-item&quot;&gt;
-        &lt;div class=&quot;timeline-icon&quot;&gt;
-            &lt;i class=&quot;fa fa-star&quot;&gt;&lt;/i&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;timeline-content&quot;&gt;
-            &lt;h2&gt;2016.05 (v2.3)&lt;/h2&gt;
-            &lt;p&gt;新增Databank功能&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;timeline-item&quot;&gt;
-        &lt;div class=&quot;timeline-icon&quot;&gt;
-            &lt;i class=&quot;fa fa-star&quot;&gt;&lt;/i&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;timeline-content right&quot;&gt;
-            &lt;h2&gt;2015.10 (v2.2)&lt;/h2&gt;
-            &lt;p&gt;Seat Map新增报表统计与分析；系统权限调整&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;timeline-item&quot;&gt;
-        &lt;div class=&quot;timeline-icon&quot;&gt;
-            &lt;i class=&quot;fa fa-star&quot;&gt;&lt;/i&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;timeline-content&quot;&gt;
-            &lt;h2&gt;2015.07 (v2.1)&lt;/h2&gt;
-            &lt;p&gt;系统角色更新；支持集成第三方应用&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;timeline-item&quot;&gt;
-        &lt;div class=&quot;timeline-icon&quot;&gt;
-            &lt;i class=&quot;fa fa-rocket&quot;&gt;&lt;/i&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;timeline-content right&quot;&gt;
-            &lt;h2&gt;2015.06 (v2.0)&lt;/h2&gt;
-            &lt;p&gt;全新后台管理；Timesheet，Seat Map功能优化&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;timeline-item&quot;&gt;
-        &lt;div class=&quot;timeline-icon&quot;&gt;
-            &lt;i class=&quot;fa fa-star&quot;&gt;&lt;/i&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;timeline-content&quot;&gt;
-            &lt;h2&gt;2014.12 (v1.1)&lt;/h2&gt;
-            &lt;p&gt;新增Contact，Seat Map功能&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class=&quot;timeline-item&quot;&gt;
-        &lt;div class=&quot;timeline-icon&quot;&gt;
-            &lt;i class=&quot;fa fa-globe&quot;&gt;&lt;/i&gt;
-        &lt;/div&gt;
-        &lt;div class=&quot;timeline-content right&quot;&gt;
-            &lt;h2&gt;2014.07 (v1.0)&lt;/h2&gt;
-            &lt;p&gt;iClarity系统上线&lt;/p&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-&lt;style&gt;
-#timeline .timeline-item:after,#timeline .timeline-item:before {
-    content: '';
-    display: block;
-    width: 100%;
-    clear: both;
-}
-#timeline {
-    width: 90%;
-    margin: 30px auto;
-    position: relative;
-    -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    -ms-transition: all 0.4s ease;
-    transition: all 0.4s ease;
-}
-#timeline:before {
-    content: &quot;&quot;;
-    width: 3px;
-    height: 100%;
-    background: #555;
-    left: 50%;
-    top: 0;
-    position: absolute;
-}
-#timeline:after {
-    content: &quot;&quot;;
-    clear: both;
-    display: table;
-    width: 100%}
-#timeline .timeline-item {
-    margin-bottom: 50px;
-    position: relative;
-}
-#timeline .timeline-item .timeline-icon {
-    background: #555;
-    width: 50px;
-    height: 50px;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    overflow: hidden;
-    margin-left: -25px;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    border-radius: 50%;
-    font-size: 30px;
-    text-align: center;
-    color: #eee;
-}
-#timeline .timeline-item .timeline-content {
-    width: 45%;
-    background: #f0f0f0;
-    padding: 20px;
-    -webkit-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
-    -moz-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
-    -ms-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
-    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.1);
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    border-radius: 5px;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
-#timeline .timeline-item .timeline-content h2 {
-    padding: 15px;
-    background: #555;
-    color: #fff;
-    margin: -20px -20px 0 -20px;
-    font-weight: 500;
-    -webkit-border-radius: 3px 3px 0 0;
-    -moz-border-radius: 3px 3px 0 0;
-    -ms-border-radius: 3px 3px 0 0;
-    border-radius: 3px 3px 0 0;
-}
-#timeline .timeline-item .timeline-content:before {
-    content: '';
-    position: absolute;
-    left: 45%;
-    top: 20px;
-    width: 0;
-    height: 0;
-    border-top: 7px solid transparent;
-    border-bottom: 7px solid transparent;
-    border-left: 7px solid #555;
-}
-#timeline .timeline-item .timeline-content.right {
-    float: right;
-}
-#timeline .timeline-item .timeline-content.right:before {
-    content: '';
-    right: 45%;
-    left: inherit;
-    border-left: 0;
-    border-right: 7px solid #555;
-}
-@media screen and (max-width: 768px) {
-    #timeline {
-        margin: 30px;
-        padding: 0;
-    }
-    #timeline:before {
-        left: 0;
-    }
-    #timeline .timeline-item .timeline-content {
-        width: 90%;
-        float: right;
-    }
-    #timeline .timeline-item .timeline-content:before, #timeline .timeline-item .timeline-content.right:before {
-        left: 10%;
-        margin-left: -6px;
-        border-left: 0;
-        border-right: 7px solid #555;
-    }
-    #timeline .timeline-item .timeline-icon {
-        left: 0;
-    }
-}
-&lt;/style&gt;
-
-&lt;h2 id=&quot;系统截图&quot;&gt;系统截图&lt;/h2&gt;
-
-&lt;p&gt;(敏感信息已打码)&lt;/p&gt;
-
-&lt;p class=&quot;image-contain&quot;&gt;Timesheet
-&lt;a href=&quot;//up.yorry.cn/link/up/up_t.png&quot;&gt;&lt;img src=&quot;//up.yorry.cn/link/up/up_t.png&quot; alt=&quot;Smithsonian Image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p class=&quot;image-contain&quot;&gt;Contact
-&lt;a href=&quot;//up.yorry.cn/link/up/up_c.png&quot;&gt;&lt;img src=&quot;//up.yorry.cn/link/up/up_c.png&quot; alt=&quot;Smithsonian Image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p class=&quot;image-contain&quot;&gt;Seat Map
-&lt;a href=&quot;//up.yorry.cn/link/up/up_s.png&quot;&gt;&lt;img src=&quot;//up.yorry.cn/link/up/up_s.png&quot; alt=&quot;Smithsonian Image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p class=&quot;image-contain&quot;&gt;Management
-&lt;a href=&quot;//up.yorry.cn/link/up/up_m.png&quot;&gt;&lt;img src=&quot;//up.yorry.cn/link/up/up_m.png&quot; alt=&quot;Smithsonian Image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p class=&quot;image-contain&quot;&gt;Attendance
-&lt;a href=&quot;//up.yorry.cn/link/up/up_a.png&quot;&gt;&lt;img src=&quot;//up.yorry.cn/link/up/up_a.png&quot; alt=&quot;Smithsonian Image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p class=&quot;image-contain&quot;&gt;Device &lt;a href=&quot;/prod/up-device/&quot;&gt;[链接]&lt;/a&gt;
-&lt;a href=&quot;//up.yorry.cn/link/up/IMG_4972.PNG&quot;&gt;&lt;img src=&quot;//up.yorry.cn/link/up/IMG_4972.PNG&quot; alt=&quot;Smithsonian Image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p class=&quot;image-contain&quot;&gt;Reservation &lt;a href=&quot;/prod/up-reservation/&quot;&gt;[链接]&lt;/a&gt;
-&lt;a href=&quot;//up.yorry.cn/link/up/IMG_5003.PNG&quot;&gt;&lt;img src=&quot;//up.yorry.cn/link/up/IMG_5003.PNG&quot; alt=&quot;Smithsonian Image&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-    &lt;p&gt;&lt;a href=&quot;//www.yorry.cn/prod/up/&quot;&gt;UP系统 (原iClarity系统)&lt;/a&gt; was originally published by 肿队长 at &lt;a href=&quot;//www.yorry.cn&quot;&gt;I'm 肿队长&lt;/a&gt; on 2014年07月01日.&lt;/p&gt;
-  </content>
-</entry>
-
-
-<entry>
   <title type="html"><![CDATA[KOsudoku(Android解数独app)]]></title>
  <link rel="alternate" type="text/html" href="//www.yorry.cn/prod/kosudoku/" />
   <id>//www.yorry.cn/prod/kosudoku</id>
@@ -1329,6 +882,74 @@ eval(function(p,a,c,k,e,d){e=function(c){return(c&lt;a?&quot;&quot;:e(parseInt(c
 &lt;/blockquote&gt;
 
     &lt;p&gt;&lt;a href=&quot;//www.yorry.cn/prod/kosudoku/&quot;&gt;KOsudoku(Android解数独app)&lt;/a&gt; was originally published by 肿队长 at &lt;a href=&quot;//www.yorry.cn&quot;&gt;I'm 肿队长&lt;/a&gt; on 2011年09月22日.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[透明屏幕笔记本]]></title>
+ <link rel="alternate" type="text/html" href="//www.yorry.cn/blog/yorry-transparent-laptop/" />
+  <id>//www.yorry.cn/blog/yorry-transparent-laptop</id>
+  <published>2011-05-17T00:00:00+08:00</published>
+  <updated>2011-05-17T00:00:00+08:00</updated>
+  <author>
+    <name>肿队长</name>
+    <uri>//www.yorry.cn</uri>
+    <email>i@yorry.cn</email>
+  </author>
+  <content type="html">
+    &lt;iframe height=498 width=510 src='//player.youku.com/embed/XMjY3Nzg5MzAw' frameborder=0 'allowfullscreen'&gt;&lt;/iframe&gt;
+
+&lt;p&gt;“透明”屏幕大家见得多了，不过是拍张后面的照片显示到屏幕上而已，能像我的笔记本这样穿过去拿东西吗？&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;//www.yorry.cn/blog/yorry-transparent-laptop/&quot;&gt;透明屏幕笔记本&lt;/a&gt; was originally published by 肿队长 at &lt;a href=&quot;//www.yorry.cn&quot;&gt;I'm 肿队长&lt;/a&gt; on 2011年05月17日.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[苹果打火机]]></title>
+ <link rel="alternate" type="text/html" href="//www.yorry.cn/blog/yorry-apple-lighter/" />
+  <id>//www.yorry.cn/blog/yorry-apple-lighter</id>
+  <published>2011-01-22T00:00:00+08:00</published>
+  <updated>2011-01-22T00:00:00+08:00</updated>
+  <author>
+    <name>肿队长</name>
+    <uri>//www.yorry.cn</uri>
+    <email>i@yorry.cn</email>
+  </author>
+  <content type="html">
+    &lt;iframe height=498 width=510 src='//player.youku.com/embed/XMjM4ODQ1NzA0' frameborder=0 'allowfullscreen'&gt;&lt;/iframe&gt;
+
+&lt;p&gt;苹果打火机，哪里不会点哪里，妈妈再也不用担心我的学习，so easy!&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;//www.yorry.cn/blog/yorry-apple-lighter/&quot;&gt;苹果打火机&lt;/a&gt; was originally published by 肿队长 at &lt;a href=&quot;//www.yorry.cn&quot;&gt;I'm 肿队长&lt;/a&gt; on 2011年01月22日.&lt;/p&gt;
+  </content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[送给自己20岁的生日礼物]]></title>
+ <link rel="alternate" type="text/html" href="//www.yorry.cn/blog/yorry-20th-birthday/" />
+  <id>//www.yorry.cn/blog/yorry-20th-birthday</id>
+  <updated>2010-04-27T00:00:00-00:00</updated>
+  <published>2010-04-16T00:00:00+08:00</published>
+  
+  <author>
+    <name>肿队长</name>
+    <uri>//www.yorry.cn</uri>
+    <email>i@yorry.cn</email>
+  </author>
+  <content type="html">
+    &lt;iframe height=498 width=510 src='//player.youku.com/embed/XMTY4NDIyNjIw' frameborder=0 'allowfullscreen'&gt;&lt;/iframe&gt;
+
+&lt;p&gt;送给自己的生日礼物，给手机上写了个交互式的app，配合我的操作实现了完美的演绎，算是我学生时代最棒的作品了吧~&lt;/p&gt;
+
+&lt;p&gt;导演/主演/5毛后期/(省略1万个职位): 肿队长&lt;/p&gt;
+
+&lt;p&gt;友情出演: 魅族M8&lt;/p&gt;
+
+    &lt;p&gt;&lt;a href=&quot;//www.yorry.cn/blog/yorry-20th-birthday/&quot;&gt;送给自己20岁的生日礼物&lt;/a&gt; was originally published by 肿队长 at &lt;a href=&quot;//www.yorry.cn&quot;&gt;I'm 肿队长&lt;/a&gt; on 2010年04月16日.&lt;/p&gt;
   </content>
 </entry>
 
